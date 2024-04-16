@@ -6,14 +6,13 @@ a {
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
-    background-color: #fcfcfc;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 button {
     cursor: pointer;
     font-family: inherit;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 /* ===================HEADER================*/
@@ -27,10 +26,13 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
+}
+.page-logo:focus {
+    color:#404bbf;
 }
 .color-logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .menu-link {
     font-weight: 500;
@@ -39,8 +41,12 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus  {
     color: #404bbf;
+}
+address {
+    font-style: normal;
 }
 .adr-link {
     font-weight: 400;
@@ -48,14 +54,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
-}
+  }
 .adr-link:hover {
     color: #404bbf;
 }
 /* =========== HERO ============ */
 .hero {
-    background-color: #434455;   
+    background-color: #2e2f42;   
 }
 .hero-tagline {
     font-weight: 700;
@@ -65,7 +70,15 @@ button {
     text-align: center;
     color: #ffffff;
 }
-button:hover {
+.button-order {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff; 
+}
+button:hover,
+button:focus {
     background: #404bbf;
 }
 /* =============== FEACHERS ============*/
@@ -85,7 +98,7 @@ button:hover {
 }
 /* =============== OUR TEAM ============*/
 .team {
-background: #f4f4fd;
+    background: #f4f4fd;
 }
 .team-name {
     font-weight: 700;
@@ -93,6 +106,7 @@ background: #f4f4fd;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .team-worker {
@@ -110,9 +124,8 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;  
-}
+}   
 .team-items {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #ffffff;   
 }
 /* =============== OUR PORTFOLIO ============*/
@@ -122,6 +135,7 @@ background: #f4f4fd;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .sample-name {
@@ -151,6 +165,6 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.color-logo-light {
+.page-footer .color-logo {
     color: #f4f4fd;
 }
