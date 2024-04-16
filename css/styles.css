@@ -55,7 +55,9 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
   }
-.adr-link:hover {
+.adr-link:hover,
+.adr-link:focus
+ {
     color: #404bbf;
 }
 /* =========== HERO ============ */
